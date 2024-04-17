@@ -1,0 +1,19 @@
+.layout1 {
+    padding-top: 10rem;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.layout {
+    padding-top: 3rem;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #8f8f8f;
+}
