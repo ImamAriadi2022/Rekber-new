@@ -17,3 +17,32 @@ p {
     font-style: normal;
     color: #8f8f8f;
 }
+
+.radius {
+    width: 200px; 
+    height: 40px; 
+    border-radius: 10px;
+}
+
+
+.container1 {
+    width: 200px; 
+    height: 200px; 
+    background: radial-gradient(circle at top left, #019488, #071fa8 50%);
+    border-radius: 20px;
+}
+
+
+.warnaForm {
+    color: aliceblue;
+}
+
+.navbar-fontHF:hover{
+    color: #ec9e0c;
+}
+.navbar-fontHF{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
