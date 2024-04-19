@@ -103,3 +103,21 @@ h2 {
     text-decoration: none;
     color: #071fa8;
 }
+
+.layout-card-costumer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul-enam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.footer-wa {
+    text-decoration: none;
+    color: #ffffff;
+}
