@@ -24,10 +24,27 @@ p {
     border-radius: 10px;
 }
 
+.button-style{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-button-style {
+    color: #071fa8;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    background-color: #ec9e0c;
+    border-radius: 10px;
+    border-color: #ec9e0c;
+}
+
 
 .container1 {
     width: 200px; 
-    height: 290px; 
+    height: 330px; 
     background: radial-gradient(circle at top left, #019488, #071fa8 50%);
     border-radius: 20px;
 }
