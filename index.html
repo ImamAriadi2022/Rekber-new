@@ -1,4 +1,11 @@
 <!doctype html>
+<!--
+    Nama Anggota kelompok
+    shafa andhika 2215061110
+    m.ayustio riswansyah 2215061046
+-->
+
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -38,14 +45,14 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#tata-cara">
                             <span class="navbar-fontHF">
                                 Tata cara
                             </span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#biaya-transaksi">
                             <span class="navbar-fontHF">
                                 Biaya Transaksi
                             </span>
@@ -59,7 +66,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#review-costumer">
                             <span class="navbar-fontHF">
                                 Testimoni
                             </span>
@@ -106,40 +113,30 @@
         <!--section kedua-->
         <br><br><br><br>
         <br><br><br><br>
-        <section>
+        <section id="form">
             <div class="container1 container" id="form">
-                <h3 style="padding-top: 2rem; padding-left:3rem;" class="warnaForm">Formulir Rekber</h3>
+                <div class="styleH3">
+                    <h3 style="padding-top: 2rem; padding-left:3rem;" class="warnaForm">Formulir Rekber</h3>
+                </div>
                 <div style="padding-top:2rem;">
                     <div class="container text-center">
                         <div class="row">
-                            <div class="col">
+                            <form onsubmit="send(); return false;">
                                 <h5 class="warnaForm">Nomor Wa Penjual</h5>
-                                <input class="radius" type="text">
-                            </div>
-                            <div class="col">
+                                <input id="input1" class="radius" type="text">
                                 <h5 class="warnaForm">Nomor Wa Pembeli</h5>
-                                <input class="radius" type="text">
-                            </div>
-                            <div class="col">
+                                <input id="input2" class="radius" type="text">
                                 <h5 class="warnaForm">Nama Barang</h5>
-                                <input class="radius" type="text">
-                            </div>
-                            <div class="col">
+                                <input id="input3" class="radius" type="text">
                                 <h5 class="warnaForm">Jumlah Barang</h5>
-                                <input class="radius" type="number">
-                            </div>
-                            <div class="col">
+                                <input id="input4" class="radius" type="number">
                                 <h5 class="warnaForm">Harga Barang</h5>
-                                <input class="radius" type="text">
-                            </div>
-                            <div class="col">
+                                <input id="input5" class="radius" type="text">
                                 <h5 class="warnaForm">Total Harga Barang</h5>
-                                <input class="radius" type="text">
-                            </div>
+                                <input id="input6" class="radius" type="text"> <br> <br>
+                                <button type="submit" class="detail-button-style">ORDER NOW</button>
+                            </form>
                         </div>
-                    </div>
-                    <div class="button-style">
-                        <button class="detail-button-style">ORDER NOW</button>
                     </div>
                 </div>
                 <br><br>
@@ -149,7 +146,7 @@
         <br><br><br>
         <!--section ketiga-->
         <hr>
-        <section>
+        <section id="about">
             <div class="judul-section-tiga">
                 <h2 style="padding-top: 2rem;">Mengenal REKBER</h2>
             </div>
@@ -183,7 +180,7 @@
         <hr>
 
         <!--section keempat-->
-        <section>
+        <section id="tata-cara">
             <div style="padding-top: 3rem;">
                 <div class="container text-start">
                     <div class="row">
@@ -274,7 +271,7 @@
 
         
         <!--section kelima-->
-        <section style="background-color: #071fa8;">
+        <section style="background-color: #071fa8;" id="biaya-transaksi">
             <div class="judul-lima">
                 <h2 style="color: #ffffff; padding-top:2rem; padding-bottom:1rem;">Biaya transaksi</h2>
             </div>
@@ -391,7 +388,7 @@
 
         <br><br><br>
         <!--section keenam-->
-        <section>
+        <section id="review-costumer">
             <div class="judul-enam">
                 <h2>Review Costumer</h2>
             </div>
@@ -485,8 +482,8 @@
                       </div>
                       <div class="col">
                         <h3 style="color: #ffffff;">Sosmed</h3>
-                        <a class="footer-wa" href="#"><img src="" alt="">User name 1</a> <br>
-                        <a class="footer-wa" href="#"><img src="" alt="">User name 2</a> 
+                        <a class="footer-wa" href="#"><img src="" alt="">Shafa Andhika</a> <br>
+                        <a class="footer-wa" href="#"><img src="" alt="">M Ayustio Riswansyah</a> 
                       </div>
                     </div>
                   </div>

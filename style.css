@@ -44,7 +44,7 @@ p {
 
 .container1 {
     width: 200px; 
-    height: 330px; 
+    height: 630px; 
     background: radial-gradient(circle at top left, #019488, #071fa8 50%);
     border-radius: 20px;
 }
@@ -120,4 +120,11 @@ h2 {
 .footer-wa {
     text-decoration: none;
     color: #ffffff;
+}
+
+.styleH3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
 }
